@@ -5,9 +5,10 @@ col1, col2, col3 = st.columns([1, 2, 3])
 with col2:
   st.image("samsung-logo.png", width=300, link="https://www.samsung.com.br/")
 
-st.title("NOME: Flávia Regina")
+st.title("Nome: Flávia Regina")
 
 st.markdown("<br>", unsafe_allow_html=True)
+
 col1, col2 = st.columns(2)
 
 with col1:
