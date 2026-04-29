@@ -4,9 +4,8 @@ col1, col2, col3 = st.columns([1, 2, 3])
 
 with col2:
   st.image("samsung-logo.png", width=300, link="https://www.samsung.com.br/")
-  st.title("Samsung")
 
-st.write("Nome: Flávia Regina")
+st.title("NOME: Flávia Regina")
 
 col1, col2 = st.columns(2)
 
