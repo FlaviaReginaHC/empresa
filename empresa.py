@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("samsung-logo.png", width=300)
+st.image("samsung-logo.png", width=300, link="https://www.samsung.com.br/")
 st.title("Samsung")
 
 st.image("Panda-Vermelho.png", width=100)
