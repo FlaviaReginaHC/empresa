@@ -3,6 +3,8 @@ import streamlit as st
 st.image("samsung-logo.png", width=300, link="https://www.samsung.com.br/")
 st.title("Samsung")
 
+st.write("Nome: Flávia Regina")
+
 col1, col2 = st.columns(2)
 
 with col1:
