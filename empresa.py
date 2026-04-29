@@ -1,5 +1,6 @@
 import streamlit as st
 
+col1, col2, col3 = st.columns([1, 2, 3])
 st.image("samsung-logo.png", width=300, link="https://www.samsung.com.br/")
 st.title("Samsung")
 
