@@ -7,6 +7,7 @@ with col2:
 
 st.title("NOME: Flávia Regina")
 
+st.markdown("<br>", unsafe_allow_html=True)
 col1, col2 = st.columns(2)
 
 with col1:
