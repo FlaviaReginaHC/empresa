@@ -22,5 +22,5 @@ col1, col2, col3 = st.columns([1, 2, 3])
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-with col3:
+with col2:
   st.image("whatsapp-logo.png", width=100, link="https://wa.me/+5583981821591")
