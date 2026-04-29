@@ -16,6 +16,9 @@ with col1:
   
 with col2:
   st.header("Sobre Mim:")
-  st.write("Olá")
+  st.write("Olá! Eu sou Flávia e não sou formada em nada.")
 
-st.image("whatsapp-logo.png", width=100, link="https://wa.me/+5583981821591")
+col1, col2, col3 = st.columns([1, 2, 3])
+
+with col2:
+  st.image("whatsapp-logo.png", width=100, link="https://wa.me/+5583981821591")
