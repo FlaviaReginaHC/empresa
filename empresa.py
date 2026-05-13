@@ -1,19 +1,5 @@
 import streamlit as st
 
-def set_bg_color(hex_color):
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-color: {hex_color};
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-set_bg_color('#') 
-
 col1, col2, col3 = st.columns([1, 2, 3])
 
 with col2:
