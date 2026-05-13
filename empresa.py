@@ -12,8 +12,7 @@ def set_bg_color(hex_color):
         unsafe_allow_html=True
     )
 
-set_bg_color('#ADD8E6') # Exemplo: Azul claro
-st.title("Fundo Colorido")
+set_bg_color('#F4A460') 
 
 col1, col2, col3 = st.columns([1, 2, 3])
 
