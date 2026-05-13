@@ -15,9 +15,8 @@ with col1:
   st.image("Panda-Vermelho.png", width=300)
   
 with col2:
-  # st.header("Sobre Mim:")
-  # st.write("Olá! Eu sou Flávia e não sou formada em nada.")
-  st.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+  st.header("Sobre Mim:")
+  st.write("Olá! Eu sou Flávia e sou estudante do 3º ano de informática.")
 
 st.write("")
   
