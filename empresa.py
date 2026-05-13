@@ -1,16 +1,5 @@
 import streamlit as st
 
-st.markdown(
-  """
-  <style>
-  .stapp{
-    background-color:#f4a460;
-  }
-  </style>
-  """,
-  unsafe_allow_html=True
-)
-
 col1, col2, col3 = st.columns([1, 2, 3])
 
 with col2:
