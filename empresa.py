@@ -12,7 +12,7 @@ def set_bg_color(hex_color):
         unsafe_allow_html=True
     )
 
-set_bg_color('#C0AA70') 
+set_bg_color('#') 
 
 col1, col2, col3 = st.columns([1, 2, 3])
 
